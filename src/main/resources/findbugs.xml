@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindbugsPlugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="findbugsplugin.xsd"
+        pluginid="com.ericsson.colorful.nullptr-exception-check">
+
+        <Detector class="com.ericsson.colorful.NullPointerExceptionDetector" reports="ECD_NULLPOINTER_EXCEPTION" />
+
+        <BugPattern abbrev="ECD_NPE" type="ECD_NULLPOINTER_EXCEPTION" category="CORRECTNESS" />
+</FindbugsPlugin>

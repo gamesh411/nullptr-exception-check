@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessageCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="messagecollection.xsd">
+
+  <Plugin>
+    <ShortDescription>Ericsson ColorfulDay plugin</ShortDescription>
+    <Details>This plugin demonstrates how to create a plugin for SpotBugs</Details>
+  </Plugin>
+
+  <Detector class="com.ericsson.colorful.NullPointerExceptionDetector">
+    <Details>
+      Detects if NullPointerException is caught. 
+    </Details>
+  </Detector>
+
+  <BugPattern type="ECD_NULLPOINTER_EXCEPTION">
+    <ShortDescription>NullPointerException should not be caught.</ShortDescription>
+    <LongDescription>
+      NullPointerException error condition can be checked without exception handling.
+    </LongDescription>
+    <Details>
+<![CDATA[
+<p>Explain existing problem in code, and how developer should improve their implementation.</p>
+]]>
+    </Details>
+  </BugPattern>
+
+  <BugCode abbrev="ECD">Ericsson ColorfulDay</BugCode>
+</MessageCollection>

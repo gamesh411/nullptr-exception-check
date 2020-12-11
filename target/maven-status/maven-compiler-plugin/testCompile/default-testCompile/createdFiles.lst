@@ -1,0 +1,6 @@
+com/ericsson/colorful/NullPointerExceptionTest.class
+com/ericsson/colorful/DontCatchNullPointerExceptionTest.class
+com/ericsson/colorful/DontCatchExceptionTest.class
+com/ericsson/colorful/DontCatchRuntimeExceptionTest.class
+com/ericsson/colorful/DontCatchThrowableTest.class
+com/ericsson/colorful/GoodCases.class
